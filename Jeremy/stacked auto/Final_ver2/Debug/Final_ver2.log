@@ -1,0 +1,17 @@
+﻿빌드 시작: 2015-08-24 오후 4:19:29
+     1>2 노드의 "C:\Users\User\Documents\Visual Studio 2012\Projects\stacked auto\Final_ver2\Final_ver2.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main_MNIST.cpp
+         main_MNIST.cpp
+     1>c:\users\user\documents\visual studio 2012\projects\stacked auto\final_ver2\main_mnist.cpp(15): warning C4305: '초기화 중' : 'double'에서 'float'(으)로 잘립니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2012\Projects\stacked auto\Debug\Final_ver2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2012\Projects\stacked auto\Debug\Final_ver2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2012\Projects\stacked auto\Debug\Final_ver2.lib" /MACHINE:X86 Debug\main_MNIST.obj
+         Debug\SA_Layer.obj
+         Debug\SA_Network.obj
+         Debug\MNIST_Parser_v5.obj
+         Final_ver2.vcxproj -> C:\Users\User\Documents\Visual Studio 2012\Projects\stacked auto\Debug\Final_ver2.exe
+     1>"C:\Users\User\Documents\Visual Studio 2012\Projects\stacked auto\Final_ver2\Final_ver2.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.26
